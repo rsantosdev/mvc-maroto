@@ -1,7 +1,6 @@
-using System.Linq;
 using Microsoft.AspNet.Mvc;
 
-namespace MvcMaroto.Web.Controllers
+namespace MvcMaroto.Framework.Controllers
 {
     public class MarotoController : Controller
     {

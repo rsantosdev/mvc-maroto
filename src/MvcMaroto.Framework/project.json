@@ -1,0 +1,14 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "MvcMaroto.Framework Class Library",
+  "authors": [ "rsantos" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "Microsoft.AspNet.Mvc": "6.0.0-rc1-final"
+  },
+  "frameworks": {
+    "net451": { }
+  }
+}

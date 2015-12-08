@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNet.Routing;
 
-namespace MvcMaroto.Web
+namespace MvcMaroto.Framework.Router
 {
     public class RouterMaroto : IRouter
     {
@@ -23,6 +23,7 @@ namespace MvcMaroto.Web
             newRouteData.Routers.Add(_target);
 
             newRouteData.Values["controller"] = "Maroto";
+            newRouteData.DataTokens["namespaces"] = "MvcMaroto.Framework.Controllers";
 
             //Defines the correct controller method
             var hasId = context.RouteData.Values.Keys.Contains("id");

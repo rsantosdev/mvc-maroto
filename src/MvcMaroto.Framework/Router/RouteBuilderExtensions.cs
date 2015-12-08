@@ -2,7 +2,7 @@
 using Microsoft.AspNet.Routing;
 using Microsoft.AspNet.Routing.Template;
 
-namespace MvcMaroto.Web
+namespace MvcMaroto.Framework.Router
 {
     public static class RouteBuilderExtensions
     {
